@@ -1,12 +1,12 @@
 --- # comment
     person: # stores 'key value' mappings within the person object, access value eg: person.name, person.male
-	name: &name "Sean"            # string with anchor &name
-	age:  27                      # intiger
-	height: 6.1                   # floating point
-	foo: "bar"                    # string
-	male: true                    # boolean
-	birthday: 1994-02-03 12:42    # ISO 8641
-	free: null                    # null value
+      name: &name "Sean"            # string with anchor &nam
+      age:  27                      # intiger
+      height: 6.1                   # floating point
+      foo: "bar"                    # string
+      male: true                    # boolean
+      birthday: 1994-02-03 12:42    # ISO 8641
+      free: null                    # null value
     
     hobbies: # list, item in list designated with a -
       - movies
