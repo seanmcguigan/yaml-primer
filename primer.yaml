@@ -1,5 +1,5 @@
 --- # comment
-person: # stores 'key value' mappings within the person object, access value eg: person.name, person.male
+    person: # stores 'key value' mappings within the person object, access value eg: person.name, person.male
 	name: &name "Sean"            # string with anchor &name
 	age:  27                      # intiger
 	height: 6.1                   # floating point
